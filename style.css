@@ -24,8 +24,8 @@ body {
     background: hsl(235, 18%, 26%);
 }
 .container {
-    width: 50%;
-    height: 500px;
+    width: 49%;
+    height: 480px;
     background: hsl(0, 0%, 100%);
     display: flex;
     padding: 1.2rem;
@@ -40,14 +40,15 @@ body {
 .right-panel > img {
     width: 100%;
     height: 100%;
-    margin-left: 30px;
+    margin-left: 36px;
 }
 .left-panel {
-    width: 42%;
+    width: 41%;
     height: 100%;
     margin: auto;
 }
 .left-panel > h1 {
+    width: 100%;
     color: hsl(234, 29%, 20%);
     margin-top: 3.2rem;
     font-size: 2.6rem;
@@ -59,6 +60,7 @@ body {
     margin-top: 1rem;
 }
 .list {
+    width: 100%;
     margin-top: 1.2rem;
     font-size: .8rem;
 }
@@ -74,3 +76,40 @@ body {
 .email-input {
     margin-top: 1.4rem;
 }
+.email-input > p {
+    font-size: .6rem;
+    font-weight: 700 ;
+    margin-bottom: .5rem;
+}
+.email-input :is(input, button) {
+    width: 100%;
+    padding: .8rem .92rem;
+    outline: none;
+    border: 1px solid hsla(231, 7%, 60%, 0.74);
+    border-radius: 5px;
+}
+.email-input input:focus {
+    color: hsl(231, 7%, 10%);
+    border-color: hsl(231, 7%, 10%);
+    transition: all .3s;
+}
+.email-input button {
+    background: hsl(234, 29%, 20%);
+    color: #efefef;
+    font-size: .72rem;
+    font-weight: 600;
+    margin-top: 1.2rem;
+    border-color: transparent;
+}
+.email-input button:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to right, hsl(339, 79%, 65%) ,hsl(4, 100%, 67%));
+    box-shadow: 0 0 6px hsl(4, 100%, 67%);
+    border-color: transparent;
+    transition: all .2s;
+}
+.email-input input::placeholder {
+    color: hsl(231, 7%, 40%);
+    font-weight: 500;
+}
+
