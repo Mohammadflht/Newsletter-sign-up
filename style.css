@@ -67,10 +67,16 @@ body {
 .email-input {
     margin-top: 1.4rem;
 }
-.email-input > p {
-    font-size: .6rem;
+.validation-box {
+    display: flex;
+    justify-content: space-between;
+    font-size: .65rem;
     font-weight: 700 ;
     margin-bottom: .5rem;
+}
+.email-error {
+    color: hsl(4, 100%, 67%);
+    transition: all 3s;
 }
 .email-input :is(input, button) {
     width: 100%;
@@ -82,6 +88,7 @@ body {
 }
 .email-input input {
     font-size: .82rem;
+    transition: all .3s;
 }
 .email-input input:focus {
     color: hsl(231, 7%, 10%);

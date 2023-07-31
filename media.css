@@ -23,7 +23,7 @@
     .list {
         font-size: .67rem;
     }
-    .email-input p {
+    .email-title {
         font-size: .5rem;
     }
     svg {
@@ -64,7 +64,7 @@
     .list {
         font-size: .54rem;
     }
-    .email-input p {
+    .email-title {
         font-size: .4rem;
     }
     svg {
@@ -105,7 +105,7 @@
     .list {
         font-size: .44rem;
     }
-    .email-input p {
+    .email-title {
         display: none;
     }
     svg {
