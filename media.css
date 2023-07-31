@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(assets/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(assets/fonts/Roboto-Regular.ttf);
+}
+@media screen and (max-width: 1507px){
+    .container {
+        height: 56%;
+        padding: 1.1rem;
+    }
+    .right-panel img {
+        margin-left: 2rem;
+    }
+    .left-panel h1 {
+        font-size: 2.2rem;
+    }
+    .p-text {
+        font-size: .67rem;
+    }
+    .list {
+        font-size: .67rem;
+    }
+    .email-input p {
+        font-size: .5rem;
+    }
+    svg {
+        width: 17px;
+        height: 17px;
+    }
+    .email-input :is(input, button) {
+        width: 100%;
+        height: 2.3rem;
+        padding: .6rem .72rem;
+        outline: none;
+        border: 1px solid hsla(231, 7%, 60%, 0.74);
+        border-radius: 5px;
+        display: inline-block;
+    }
+    .email-input button {
+        font-size: .6rem;
+        margin-top: 1.1rem;
+    }
+    .email-input input {
+        font-size: .7rem;
+    }
+}
+@media screen and (max-width: 1210px){
+    .container {
+        height: 52%;
+        padding: .9rem;
+    }
+    .right-panel img {
+        margin-left: 1.8rem;
+    }
+    .left-panel h1 {
+        font-size: 1.7rem;
+    }
+    .p-text {
+        font-size: .54rem;
+    }
+    .list {
+        font-size: .54rem;
+    }
+    .email-input p {
+        font-size: .4rem;
+    }
+    svg {
+        width: 13px;
+        height: 13px;
+    }
+    .email-input :is(input, button) {
+        width: 100%;
+        height: 2rem;
+        padding: .6rem .72rem;
+        outline: none;
+        border: 1px solid hsla(231, 7%, 60%, 0.74);
+        border-radius: 5px;
+        display: inline-block;
+    }
+    .email-input button {
+        font-size: .5rem;
+        margin-top: 1rem;
+    }
+    .email-input input {
+        font-size: .6rem;
+    }
+}
+@media screen and (max-width: 960px){
+    .container {
+        height: 46%;
+        padding: .8rem;
+    }
+    .right-panel img {
+        margin-left: 1.6rem;
+    }
+    .left-panel h1 {
+        font-size: 1.3rem;
+    }
+    .p-text {
+        font-size: .44rem;
+    }
+    .list {
+        font-size: .44rem;
+    }
+    .email-input p {
+        display: none;
+    }
+    svg {
+        width: 11px;
+        height: 11px;
+    }
+    .email-input :is(input, button) {
+        width: 100%;
+        height: 1.6rem;
+        padding: .5rem .62rem;
+        outline: none;
+        border: 1px solid hsla(231, 7%, 60%, 0.74);
+        border-radius: 5px;
+        display: inline-block;
+    }
+    .email-input button {
+        font-size: .3rem;
+        margin-top: .9rem;
+    }
+    .email-input input {
+        font-size: .4rem;
+    }
+}
