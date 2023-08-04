@@ -17,6 +17,11 @@ confirmBtn.addEventListener('click', () => {
         formPreview.style.display = "none";
         successPart.style.display = "block";
         validUserEmail.innerHTML = emailValue.value;
+        emailError.innerHTML = "";
+        emailValue.style.backgroundColor = "transparent";
+        emailValue.style.borderColor = "hsla(231, 7%, 60%, 0.74)"
+        emailValue.style.color = "#000"
+        emailValue.value = ""
     }
     else {
         emailError.innerHTML = "Valid email reauired";
