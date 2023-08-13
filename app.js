@@ -24,7 +24,7 @@ confirmBtn.addEventListener('click', () => {
         emailValue.value = ""
     }
     else {
-        emailError.innerHTML = "Valid email reauired";
+        emailError.innerHTML = "Valid email required";
         emailValue.style.backgroundColor = "hsl(4, 100%, 96%)";
         emailValue.style.borderColor = "hsla(4, 100%, 67%)"
         emailValue.style.color = "hsla(4, 100%, 67%)"
@@ -32,7 +32,7 @@ confirmBtn.addEventListener('click', () => {
 });
 
 dismissBtn.addEventListener("click", () => {
-    formPreview.style.display = "flex";
+    formPreview.style.display = "";
     successPart.style.display = "none";
 });
 
