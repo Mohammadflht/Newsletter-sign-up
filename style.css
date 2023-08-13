@@ -24,6 +24,15 @@ body {
     overflow: auto;
     border-radius: 28px;
 }
+.mobile-panel-bottom {
+    display: none;
+    width: 41%;
+    height: 100%;
+    margin: auto;
+}
+.mobile-preview-image {
+    display: none;
+}
 .right-panel {
     width: 40%;
     height: 100%;
@@ -39,7 +48,7 @@ body {
     height: 100%;
     margin: auto;
 }
-.left-panel > h1 {
+.panel-title{
     width: 100%;
     color: hsl(234, 29%, 20%);
     margin-top: 3.2rem;
